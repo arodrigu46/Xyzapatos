@@ -7,4 +7,14 @@
     <string name="tipo">Tipo:</string>
     <string name="zapatilla">Zapatilla</string>
     <string name="clasico">Clásico</string>
+    <string name="marca">Marca:</string>
+    <string-array name="arrayMarca">
+        <item>@string/nike</item>
+        <item>@string/adidas</item>
+        <item>@string/puma</item>
+    </string-array>
+    <string name="nike">Nike</string>
+    <string name="adidas">Adidas</string>
+    <string name="puma">Puma</string>
+    <string name="valor">El valor a pagar es:</string>
 </resources>

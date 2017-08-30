@@ -5,4 +5,11 @@
     <string name="femenino">Female</string>
     <string name="masculino">Male</string>
     <string name="sexo">Sex:</string>
+    <string name="clasico">Classic</string>
+    <string name="tipo">Kind of:</string>
+    <string name="marca">Brand:</string>
+    <string name="zapatilla">Shoe</string>
+    <string name="nike">Nike</string>
+    <string name="puma">Puma</string>
+    <string name="adidas">Adidas</string>
 </resources>
