@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Xyzapatos</string>
+    <string name="titulo">XYZ Shoes</string>
+    <string name="femenino">Female</string>
+    <string name="masculino">Male</string>
+    <string name="sexo">Sex:</string>
+</resources>

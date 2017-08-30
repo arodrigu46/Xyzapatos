@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Xyzapatos</string>
+    <string name="titulo">XYZ Zapatos</string>
+    <string name="sexo">Sexo:</string>
+    <string name="masculino">Masculino</string>
+    <string name="femenino">Femenino</string>
+    <string name="tipo">Tipo:</string>
+    <string name="zapatilla">Zapatilla</string>
+    <string name="clasico">Clásico</string>
 </resources>
