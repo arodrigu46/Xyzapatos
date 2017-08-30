@@ -34,13 +34,13 @@
             android:layout_height="wrap_content">
 
             <RadioButton
-                android:id="@+id/rbHombre"
+                android:id="@+id/rbMasculino"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/masculino" />
 
             <RadioButton
-                android:id="@+id/radioButton2"
+                android:id="@+id/rbFemenino"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/femenino" />
@@ -99,6 +99,7 @@
             android:id="@+id/btnCalcular"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="calcular"
             android:text="@string/calcular" />
 
         <TextView
@@ -111,7 +112,6 @@
             android:id="@+id/lblValorAPagar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="0"
             android:textSize="25sp"
             android:textStyle="bold" />
 

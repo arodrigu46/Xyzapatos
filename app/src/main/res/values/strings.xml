@@ -19,4 +19,7 @@
     <string name="valor">El valor a pagar es:</string>
     <string name="cantidad">Ingrese la cantidad:</string>
     <string name="calcular">Calcular</string>
+    <string name="error00">Ingrese una cantidad Válida</string>
+    <string name="error01">Seleccione un sexo</string>
+    <string name="error02">Seleccione un tipo de zapato</string>
 </resources>

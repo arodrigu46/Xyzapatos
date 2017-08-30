@@ -15,4 +15,7 @@
     <string name="valor">The amout to be paid is:</string>
     <string name="cantidad">Enter the amout</string>
     <string name="calcular">Calculate</string>
+    <string name="error00">Please enter a valid amount</string>
+    <string name="error01">Choose a Gender</string>
+    <string name="error02">Choose a kind of Shoes</string>
 </resources>
