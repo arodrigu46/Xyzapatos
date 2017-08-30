@@ -61,6 +61,45 @@ public class Principal extends AppCompatActivity {
                 }else{
                     if(rbMas.isChecked()==true && rbZap.isChecked()==true && posMarca==2){
                         resultado = (unidades*130000);
+                    }else{
+                        if(rbMas.isChecked()==true && rbClas.isChecked()==true && posMarca==0){
+                            resultado = (unidades*50000);
+                        }else{
+                            if(rbMas.isChecked()==true && rbClas.isChecked()==true && posMarca==1){
+                                resultado = (unidades*80000);
+
+                            }else{
+                                if(rbMas.isChecked()==true && rbClas.isChecked()==true && posMarca==2){
+                                    resultado = (unidades*100000);
+
+                                }else{
+                                    if(rbFem.isChecked()==true && rbZap.isChecked()==true && posMarca==0){
+                                        resultado = (unidades*100000);
+                                    }else{
+                                        if (rbFem.isChecked()==true && rbZap.isChecked()==true && posMarca==1) {
+
+                                            resultado = (unidades*130000);
+                                        }else{
+                                            if(rbFem.isChecked()==true && rbZap.isChecked()==true && posMarca==2){
+                                                resultado = (unidades*110000);
+                                            }else{
+                                                if(rbFem.isChecked()==true && rbClas.isChecked()==true && posMarca==0){
+                                                    resultado = (unidades*60000);
+                                                }else{
+                                                    if(rbFem.isChecked()==true && rbClas.isChecked()==true && posMarca==1){
+                                                        resultado = (unidades*70000);
+                                                    }else{
+                                                        if(rbFem.isChecked()==true && rbClas.isChecked()==true && posMarca==2){
+                                                            resultado = (unidades*120000);
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -69,7 +108,7 @@ public class Principal extends AppCompatActivity {
 
 
 
-            lblResultado.setText(String.valueOf(resultado));
+            lblResultado.setText("$ "+String.valueOf(resultado)+" COP");
         }
     }
 
