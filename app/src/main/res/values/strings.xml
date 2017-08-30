@@ -17,4 +17,6 @@
     <string name="adidas">Adidas</string>
     <string name="puma">Puma</string>
     <string name="valor">El valor a pagar es:</string>
+    <string name="cantidad">Ingrese la cantidad:</string>
+    <string name="calcular">Calcular</string>
 </resources>
