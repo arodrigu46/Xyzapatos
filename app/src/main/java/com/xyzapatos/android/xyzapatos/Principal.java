@@ -46,90 +46,9 @@ public class Principal extends AppCompatActivity {
 
 
     }
-
     public void calcular(View v){
-        if(validar()){
-            Double resultado = 0.0;
-            Double unidades = Double.parseDouble(txtCantidad.getText().toString());
-            int posMarca = spMarca.getSelectedItemPosition();
-            if(rbMas.isChecked()==true && rbZap.isChecked()==true && posMarca==0){
-                resultado = (unidades*120000);
-
-            }else{
-                if(rbMas.isChecked()==true && rbZap.isChecked()==true && posMarca==1){
-                    resultado = (unidades*140000);
-                }else{
-                    if(rbMas.isChecked()==true && rbZap.isChecked()==true && posMarca==2){
-                        resultado = (unidades*130000);
-                    }else{
-                        if(rbMas.isChecked()==true && rbClas.isChecked()==true && posMarca==0){
-                            resultado = (unidades*50000);
-                        }else{
-                            if(rbMas.isChecked()==true && rbClas.isChecked()==true && posMarca==1){
-                                resultado = (unidades*80000);
-
-                            }else{
-                                if(rbMas.isChecked()==true && rbClas.isChecked()==true && posMarca==2){
-                                    resultado = (unidades*100000);
-
-                                }else{
-                                    if(rbFem.isChecked()==true && rbZap.isChecked()==true && posMarca==0){
-                                        resultado = (unidades*100000);
-                                    }else{
-                                        if (rbFem.isChecked()==true && rbZap.isChecked()==true && posMarca==1) {
-
-                                            resultado = (unidades*130000);
-                                        }else{
-                                            if(rbFem.isChecked()==true && rbZap.isChecked()==true && posMarca==2){
-                                                resultado = (unidades*110000);
-                                            }else{
-                                                if(rbFem.isChecked()==true && rbClas.isChecked()==true && posMarca==0){
-                                                    resultado = (unidades*60000);
-                                                }else{
-                                                    if(rbFem.isChecked()==true && rbClas.isChecked()==true && posMarca==1){
-                                                        resultado = (unidades*70000);
-                                                    }else{
-                                                        if(rbFem.isChecked()==true && rbClas.isChecked()==true && posMarca==2){
-                                                            resultado = (unidades*120000);
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-
-
-
-
-
-            lblResultado.setText("$ "+String.valueOf(resultado)+" COP");
-        }
-    }
-
-    public boolean validar(){
-        if(txtCantidad.getText().toString().isEmpty() || txtCantidad.getText().toString().equals("0")){
-            Toast.makeText(this, resources.getString(R.string.error00),Toast.LENGTH_SHORT).show();
-            return false;
-        }else{
-            if(rbMas.isChecked()!=true && rbFem.isChecked()!=true){
-                Toast.makeText(this, resources.getString(R.string.error01),Toast.LENGTH_SHORT).show();
-                return false;
-            }else{
-                if(rbZap.isChecked()!=true && rbClas.isChecked()!=true){
-                    Toast.makeText(this, resources.getString(R.string.error02),Toast.LENGTH_SHORT).show();
-                    return false;
-                }else{
-                    return true;
-                }
-            }
-        }
-
 
     }
+
+
 }
